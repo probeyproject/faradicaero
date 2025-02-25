@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+body{
+    /* font-family: "Montserrat", serif; */
+    font-family: "Lora", serif;
+   
+
+}
+
+.backgound_color{
+    /* background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); */
+    /* background-color: red; */
+    /* background: linear-gradient(to bottom right, #1D2145 0%, #1b0144 50%, #220355 100%); */
+
+
+ 
+}
+
+.box{
+    box-shadow: 0 0 15px #0aade4;
+}
+
+
+
+/* projects components */
+
+.projectsimg_1{
+    background-image: url("https://img.freepik.com/free-photo/top-view-quadrotor-grassy-ground_181624-59242.jpg?t=st=1738060049~exp=1738063649~hmac=d2c29e7b95ee0b7743d1ad0b0912333a7695b36b51086a0bddfdd65bfde7c5e4&w=826");
+   
+   
+}
+.projectsimg_2{
+    background-image: url("https://img.freepik.com/free-photo/top-view-quadrotor-grassy-ground_181624-59242.jpg?t=st=1738060049~exp=1738063649~hmac=d2c29e7b95ee0b7743d1ad0b0912333a7695b36b51086a0bddfdd65bfde7c5e4&w=826");
+   
+   
+}
+.projectsimg_3{
+    background-image: url("https://img.freepik.com/free-photo/top-view-quadrotor-grassy-ground_181624-59242.jpg?t=st=1738060049~exp=1738063649~hmac=d2c29e7b95ee0b7743d1ad0b0912333a7695b36b51086a0bddfdd65bfde7c5e4&w=826");
+  
+   
+}
+.projectsimg_4{
+    background-image: url("https://img.freepik.com/free-photo/top-view-quadrotor-grassy-ground_181624-59242.jpg?t=st=1738060049~exp=1738063649~hmac=d2c29e7b95ee0b7743d1ad0b0912333a7695b36b51086a0bddfdd65bfde7c5e4&w=826")
+   
+}
+.projectsimg_5{
+    background-image: url("https://img.freepik.com/free-photo/top-view-quadrotor-grassy-ground_181624-59242.jpg?t=st=1738060049~exp=1738063649~hmac=d2c29e7b95ee0b7743d1ad0b0912333a7695b36b51086a0bddfdd65bfde7c5e4&w=826");
+   
+   
+}
+
+.project_image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100px;
+   
+  
+}
+
+.projectspeice_one{
+    background-position: 0px 0px ;
+  
+
+}
+.projectspeice_two{
+    background-position: 0 -100px;
+}
+.projectspeice_three{
+    background-position: 0 -200px;
+}
+.projectspeice_four{
+    background-position: 0 -300px;
+}
+.projectspeice_five{
+    background-position: 0 -400px;
+}
+
+
+
+
+
+
+
+.projectsimg_two{
+    background-image: url("https://img.freepik.com/free-photo/beautiful-butterfly-nature_23-2150445580.jpg?t=st=1738048085~exp=1738051685~hmac=af84ce721fab57796336e9d744d9bf749652a690269c71c2172f9191ae7c66ce&w=360");
+}
+.projectsimg_three{
+    background-image: url("https://img.freepik.com/free-photo/beautiful-butterfly-nature_23-2150445570.jpg?t=st=1738048170~exp=1738051770~hmac=dd859dfecea756fe788e9d67348f21305b5b4a25277f3e067f4b99a631d461e5&w=360");
+}
+
+
+
+/* button for all  */
+.my_button:before{
+    background: #650bad;
+    height: 150px;
+    width: 200px;
+    top:100%;
+    left: 100%;
+    transition: all 0.7s;
+    
+}
+.my_button:hover::before{
+    top:-30px;
+    left: -30px;
+}
+.my_button:acttive::before{
+    background: #3a0ca3;
+    transition: background 0s;
+}
+
+
+
+.product {
+    width: 100%;
+    height: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    
+    border: 1px dashed #fffce1;
+    will-change: transform;
+    background-color: #0e100f;
+  }
+  .product[data-grid="img-1"] { grid-column: span 3; grid-row: span 3; z-index: 1; }
+  .product[data-grid="img-2"] { grid-column: span 1; grid-row: span 1; }
+  .product[data-grid="img-3"] { grid-column: span 1; grid-row: span 1; }
+  .product[data-grid="img-4"] { grid-column: span 1; grid-row: span 1; }
+  .product-1 { background-image: url("https://img.freepik.com/free-photo/mixed-berries-flat-lay-with-peaches-kiwis-food-photography_53876-106094.jpg?t=st=1740226185~exp=1740229785~hmac=519f082bc8b7cb9ec5c46ad7fd512837e9815f172b849d3dd9678147300e241a&w=1060"); }
+  .product-2 { background-image: url("https://img.freepik.com/free-photo/mixed-berries-flat-lay-with-peaches-kiwis-food-photography_53876-106094.jpg?t=st=1740226185~exp=1740229785~hmac=519f082bc8b7cb9ec5c46ad7fd512837e9815f172b849d3dd9678147300e241a&w=1060"); }
+  .product-3 { background-image: url("https://img.freepik.com/free-photo/mixed-berries-flat-lay-with-peaches-kiwis-food-photography_53876-106094.jpg?t=st=1740226185~exp=1740229785~hmac=519f082bc8b7cb9ec5c46ad7fd512837e9815f172b849d3dd9678147300e241a&w=1060"); }
+  .product-4 { background-image: url("https://img.freepik.com/free-photo/mixed-berries-flat-lay-with-peaches-kiwis-food-photography_53876-106094.jpg?t=st=1740226185~exp=1740229785~hmac=519f082bc8b7cb9ec5c46ad7fd512837e9815f172b849d3dd9678147300e241a&w=1060"); }
+
+
+
+  

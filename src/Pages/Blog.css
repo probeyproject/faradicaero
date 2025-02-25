@@ -1,0 +1,89 @@
+/* 🌑 Gray & White Theme */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: "Arial", sans-serif;
+}
+
+.blog-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+/* 🔹 Main Blog Title */
+.blog-title-main {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+/* 🔥 Blog Section */
+.blog-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    opacity: 0; /* Initially hidden for GSAP animation */
+    transition: transform 0.4s ease-in-out;
+}
+
+/* 🖼 Blog Image */
+.blog-image {
+    width: 50%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 12px;
+}
+
+/* 📖 Blog Content */
+.blog-content {
+    width: 45%;
+    padding: 20px;
+}
+
+/* 📝 Blog Title */
+.blog-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* 📜 Blog Text */
+.blog-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* 🏆 Alternating Blog Layout */
+.blog-section.right {
+    flex-direction: row-reverse;
+}
+
+.blog-section.left {
+    flex-direction: row;
+}
+
+/* 🔹 RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    .blog-section {
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    .blog-image {
+        width: 100%;
+    }
+
+    .blog-content {
+        width: 100%;
+        padding: 20px 0;
+    }
+}

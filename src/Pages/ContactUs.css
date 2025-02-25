@@ -1,0 +1,242 @@
+/* styles.css */
+
+/* Get in Touch Section */
+.contact-container-main {
+    background-image: url('https://img.freepik.com/free-photo/drone-conducting-survey-vibrant-green-farmland-precision-agriculture_157027-2862.jpg?t=st=1740469307~exp=1740472907~hmac=39b27933cba8351a5c6f8d3a1e42d59a32bc242b56a78425bac0039f1660ab5e&w=2000');
+    background-size: cover;
+    background-position: center;
+   
+
+}
+
+/* Header Section */
+.get-us-container {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom-left-radius: 50% 40px;
+    border-bottom-right-radius: 50% 40px;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
+    padding-top: 130px;
+}
+
+.contact-header {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contact-subheader {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 600px;
+    margin: 10px auto 0;
+}
+
+/* Contact Container */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    padding: 30px;
+    gap: 30px;
+    margin: auto;
+}
+
+/* Contact Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-input,
+.contact-textarea {
+    width: 100%;
+    padding: 14px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    font-size: 16px;
+    background: rgba(70, 70, 70, 0.9);
+    color: #ffffff;
+    outline: none;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.contact-input:focus,
+.contact-textarea:focus {
+    border-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+.contact-textarea {
+    resize: none;
+    height: 120px;
+}
+
+/* Submit Button */
+.contact-button {
+    background: linear-gradient(90deg, #555, #222);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.contact-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);
+}
+
+/* Contact Wrapper */
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 30px;
+    background-color: #111;
+}
+
+/* Contact Background */
+.contact-bg {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Contact Info Section */
+.contact-info-section {
+    background: rgba(30, 30, 30, 1);
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 450px;
+    height: 550px;
+    width: 100%;
+    text-align: left;
+    color: white;
+    transition: ease-in-out 0.4s;
+    opacity: 1 !important;
+  
+
+    /* Neon Glow Effect */
+    box-shadow: 
+        0px 0px 15px rgba(200, 200, 200, 0.4),
+        0px 0px 30px rgba(180, 180, 180, 0.3),
+        inset 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+.contact-info-section:hover {
+    box-shadow: 
+        0px 0px 20px rgba(220, 220, 220, 0.6),
+        0px 0px 35px rgba(200, 200, 200, 0.5),
+        inset 0px 0px 15px rgba(255, 255, 255, 0.3);
+}
+
+/* Enhancing the text glow */
+.icon-content span {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #ffcc00;
+    text-shadow: 0px 0px 5px rgba(255, 255, 100, 0.6);
+}
+
+.icon-content p, 
+.icon-content ul {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: #ddd;
+    text-shadow: 0px 0px 5px rgba(200, 200, 200, 0.4);
+}
+
+.icon-content ul {
+    list-style: none;
+}
+
+.wt-icon-box-wraper {
+    margin-bottom: 20px;
+    
+}
+
+/* 🔹 RESPONSIVENESS */
+@media (max-width: 1024px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-bg, .contact-info-section {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-header {
+        font-size: 28px;
+        padding-top: 80px;
+    }
+
+    .contact-subheader {
+        font-size: 15px;
+    }
+
+    .contact-input, .contact-textarea {
+        font-size: 14px;
+    }
+
+    .contact-bg, .contact-info-section {
+        padding: 30px;
+    }
+
+    .contact-wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .get-us-container {
+        padding: 30px 15px;
+    }
+
+    .contact-header {
+        font-size: 24px;
+    }
+
+    .contact-subheader {
+        font-size: 14px;
+    }
+
+    .contact-bg, .contact-info-section {
+        padding: 25px;
+        max-width: 100%;
+    }
+
+    .contact-input, .contact-textarea {
+        font-size: 14px;
+    }
+
+    .contact-button {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
