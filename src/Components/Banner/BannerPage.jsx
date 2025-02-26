@@ -53,7 +53,7 @@ function BannerPage({ ref }) {
     });
   });
   return (
-    <section className="w-full pt-20  md:h-screen overflow-hidden" ref={ref}>
+    <section className="w-full pt-20  h-[700px]  md:h-screen overflow-hidden" ref={ref}>
       <div
         ref={sectionRef}
         className="flex flex-col  items-center min-h-screen  text-white relative"
@@ -81,7 +81,7 @@ function BannerPage({ ref }) {
         </div>
 
         {/* Latest Project Section */}
-        <div className="absolute flex bottom-16 md:bottom-72 text-center  lg:right-16 ">
+        <div className="absolute flex bottom-85 md:bottom-72 text-center  lg:right-16 ">
           <div className=" bg-opacity-50 px-6 py-4 md:w-96 rounded-lg">
             <h3 className="text-lg md:text-xl font-semibold uppercase">
               Latest Project
